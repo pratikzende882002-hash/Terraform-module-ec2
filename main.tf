@@ -1,5 +1,5 @@
 resource "aws_security_group" "sg" {
-    name = var.sg_name
+    name        = "${var.instance_name}-sg"
     description = "Security group for EC2 instance"
     vpc_id = var.vpc_id
 
