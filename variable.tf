@@ -29,7 +29,6 @@ variable "instance_name" {
 variable "sg_name" {
     description = "The name of the security group."
     type        = string
-    default     = "${var.instance_name}-sg"
   
 }
 
